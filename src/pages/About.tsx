@@ -1,6 +1,7 @@
 import { Layout } from '@/components/layout/Layout';
 import { FadeIn } from '@/components/ui/motion';
 import { GraduationCap, MapPin } from 'lucide-react';
+import profilePhoto from '@/assets/profile-photo.png';
 
 const About = () => {
   return (
@@ -8,16 +9,27 @@ const About = () => {
       <section className="py-24 md:py-32">
         <div className="section-container">
           <div className="max-w-3xl">
-            {/* Header */}
+            {/* Header with Photo */}
             <FadeIn>
-              <span className="text-xs font-mono text-muted-foreground uppercase tracking-wider">
-                About
-              </span>
-              <h1 className="mt-2 mb-8">
-                Engineering systems that
-                <br />
-                <span className="text-muted-foreground">think and protect.</span>
-              </h1>
+              <div className="flex flex-col sm:flex-row gap-8 items-start mb-8">
+                <div className="flex-shrink-0">
+                  <img
+                    src={profilePhoto}
+                    alt="Tarun R"
+                    className="w-32 h-32 md:w-40 md:h-40 rounded-2xl object-cover border-2 border-border shadow-lg"
+                  />
+                </div>
+                <div>
+                  <span className="text-xs font-mono text-muted-foreground uppercase tracking-wider">
+                    About
+                  </span>
+                  <h1 className="mt-2">
+                    Engineering systems that
+                    <br />
+                    <span className="text-muted-foreground">think and protect.</span>
+                  </h1>
+                </div>
+              </div>
             </FadeIn>
 
             {/* Bio */}
@@ -70,7 +82,7 @@ const About = () => {
                       B.E. in AI & Machine Learning
                     </p>
                     <p className="text-xs text-muted-foreground mt-0.5">
-                      Vemana Institute of Technology • CGPA: 7.04
+                      Vemana Institute of Technology • CGPA: 7.33
                     </p>
                   </div>
                 </div>
