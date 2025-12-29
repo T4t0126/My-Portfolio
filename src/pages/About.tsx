@@ -70,7 +70,7 @@ const About = () => {
                       B.E. in AI & Machine Learning
                     </p>
                     <p className="text-xs text-muted-foreground mt-0.5">
-                      Vemana Institute of Technology • CGPA: 7.33
+                      Vemana Institute of Technology • CGPA: 7.04
                     </p>
                   </div>
                 </div>
