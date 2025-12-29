@@ -1,73 +1,153 @@
-# Welcome to your Lovable project
+🧠 Tarun R — Portfolio Website
 
-## Project info
+A modern, industry-ready personal portfolio built to showcase AI Engineering and Cybersecurity work with equal emphasis.
+Designed with a strong focus on systems thinking, clarity, accessibility, and performance, while maintaining an avant-garde but restrained visual identity.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This portfolio is not a template—it is an engineered product.
 
-## How can I edit this code?
+✨ Key Highlights
 
-There are several ways of editing your application.
+⚙️ AI Engineering + Cybersecurity (equal focus)
 
-**Use Lovable**
+🎨 Subtle, technical, non-generic UI
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+🌗 Independently designed Dark & Light themes
 
-Changes made via Lovable will be committed automatically to this repo.
+🧩 Purposeful Three.js integration (ambient, non-gimmicky)
 
-**Use your preferred IDE**
+🎥 Refined motion using Framer Motion
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📄 One-click resume download
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+♿ Accessibility-first (WCAG AA compliant)
 
-Follow these steps:
+🚀 Optimized for performance and recruiter scanning
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🛠 Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Framework: Next.js (App Router)
 
-# Step 3: Install the necessary dependencies.
-npm i
+UI Library: React
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+3D & Visuals: Three.js (via @react-three/fiber)
 
-**Edit a file directly in GitHub**
+Animations: Framer Motion
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Styling: CSS Variables (Design Tokens)
 
-**Use GitHub Codespaces**
+Deployment: Vercel
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Fonts:
 
-## What technologies are used for this project?
+Headlines: IBM Plex Serif
 
-This project is built with:
+Body/UI: Neue Montreal / Söhne
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Code/Meta: JetBrains Mono
 
-## How can I deploy this project?
+🧭 Site Structure
+/
+├─ Home
+├─ About
+├─ Projects
+│  ├─ Oceanographic Data Pipeline
+│  ├─ NyayaVaani – Legal AI Assistant
+│  ├─ Patient Behavior Analytics
+│  └─ AI-Powered Stock Trend Analyzer
+├─ Experience
+├─ Contact
+└─ Resume (PDF Download)
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+🧪 Featured Projects
+🌊 Oceanographic Data Pipeline
 
-## Can I connect a custom domain to my Lovable project?
+AI Engineering · Data Systems
+Processed 2.8M+ ocean sensor records using a scalable data pipeline with anomaly detection and automated dashboards. Improved anomaly accuracy by 35%.
 
-Yes, you can!
+Tech: Python, PostgreSQL, React, Plotly
+Focus: scalability, data integrity, observability
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+⚖️ NyayaVaani – Legal AI Assistant
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+AI Engineering · Cybersecurity
+Multilingual AI assistant (voice + text) deployed as a PWA and WhatsApp bot with a privacy-first architecture and 95% response accuracy.
+
+Tech: GPT-4, Speech APIs, PWA, WhatsApp Bot
+Focus: applied ML, privacy, secure deployment
+
+🧬 Patient Behavior Analytics
+
+Machine Learning · Explainability
+Built an interpretable ML pipeline for early health-risk prediction using Decision Trees and SHAP.
+
+Tech: Scikit-learn, PyTorch
+Focus: explainability, model evaluation
+
+📈 AI-Powered Stock Trend Analyzer
+
+Data Science · ML
+Predicted stock movement using technical indicators (RSI, MACD), sentiment analysis, and backtesting with ensemble strategies.
+
+Tech: Python, Pandas
+Focus: applied data science, experimentation
+
+🎨 Design Principles
+
+Typography-led layouts
+
+One accent color used intentionally
+
+No generic “startup” aesthetics
+
+Motion used only when it improves clarity
+
+3D treated as atmospheric infrastructure
+
+Dark mode is default; light mode is editorial
+
+If any section feels generic, it’s redesigned.
+
+♿ Accessibility & Performance
+
+WCAG AA color contrast
+
+Keyboard-navigable UI
+
+prefers-reduced-motion respected
+
+Lazy-loaded Three.js canvas
+
+Lighthouse scores ≥ 90 across metrics
+
+📄 Resume
+
+A one-click resume download is available directly from the site header.
+
+Degree: B.E. Artificial Intelligence & Machine Learning
+
+CGPA: 7.33
+
+📬 Contact & Network
+
+Email: tarun4tech0126@gmail.com
+
+LinkedIn: https://linkedin.com/in/tarun-r-60b0602b9
+
+GitHub: https://github.com/T4t0126
+
+WhatsApp: https://wa.me/919110239833
+
+🚀 Deployment
+
+Deployed using Vercel with:
+
+Edge caching
+
+Automatic optimizations
+
+SEO-ready structure (robots.txt, sitemap.xml)
+
+🧠 Philosophy
+
+This portfolio is designed as a system, not a showcase.
+It prioritizes clarity over decoration, intent over trends, and engineering discipline over flash.
