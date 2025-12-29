@@ -84,7 +84,7 @@ export function Header() {
 
               {/* Resume Download */}
               <Button asChild variant="outline" size="sm" className="gap-2">
-                <a href="/Tarun_R_Resume.pdf" download="Tarun_R_Resume.pdf">
+                <a href="/Tarun_R_Resume.pdf" target="_blank" rel="noopener noreferrer">
                   <Download className="h-4 w-4" />
                   <span className="hidden lg:inline">Resume</span>
                 </a>
@@ -154,7 +154,7 @@ export function Header() {
                 ))}
                 <li className="pt-4">
                   <Button asChild variant="outline" size="sm" className="gap-2 w-full">
-                    <a href="/Tarun_R_Resume.pdf" download="Tarun_R_Resume.pdf">
+                    <a href="/Tarun_R_Resume.pdf" target="_blank" rel="noopener noreferrer">
                       <Download className="h-4 w-4" />
                       Download Resume
                     </a>

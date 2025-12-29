@@ -59,8 +59,8 @@ const Contact = () => {
                 <StaggerItem key={link.label}>
                   <a
                     href={link.href}
-                    target={link.href.startsWith('http') ? '_blank' : undefined}
-                    rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group block elevated-card hover:border-accent/30"
                   >
                     <div className="flex items-center gap-4">
